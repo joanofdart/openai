@@ -19,4 +19,4 @@ RUN conda install swig
 RUN pip install box2d-py atari_py pystan
 
 COPY ./example/env_render.ipynb /home/${NB_USER}/env_render.ipynb
-COPY ./example/18_reinforcement_learning.ipynb /home/${NB_USER}/01_the_machine_learning_landscape.ipynb
+COPY ./example/01_the_machine_learning_landscape.ipynb /home/${NB_USER}/01_the_machine_learning_landscape.ipynb
